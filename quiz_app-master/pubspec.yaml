@@ -1,0 +1,31 @@
+name: quiz_app
+description: A captivating Philippine-focused quiz app with a red theme and leaderboard.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  google_fonts: ^4.0.3 # While google_fonts is here, it's not actively used in the provided code snippets. If you want to use custom fonts, we'll need to apply them in the theme.
+  flutter_animate: ^4.1.1+1
+  shared_preferences: ^2.1.0
+  audioplayers: ^5.2.1 #  Using ^ for latest compatible version is good
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/audio/ # Explicitly list audio files
+    - assets/audio/  # Explicitly list audio files
+    - assets/audio/ 
